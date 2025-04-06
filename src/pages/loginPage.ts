@@ -1,5 +1,5 @@
 import { Locator, Page } from '@playwright/test';
-import { BasePage } from './basePage';
+import { BasePage } from '../support/basePage';
 
 export class LoginPage extends BasePage {
   constructor(page: Page) {

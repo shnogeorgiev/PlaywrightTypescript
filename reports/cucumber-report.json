@@ -1,0 +1,92 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-page;user-can-use-navigation",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User can use navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1271220800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the home page",
+            "match": {
+              "location": "src\\steps\\homeSteps.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 563999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "Expand the sidebar",
+            "match": {
+              "location": "src\\steps\\homeSteps.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on 'Forms'",
+            "match": {
+              "location": "src\\steps\\homeSteps.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120036600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I can click DatePicker",
+            "match": {
+              "location": "src\\steps\\homeSteps.steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208173200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 251390499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Page",
+    "tags": [],
+    "uri": "src\\features\\home.feature"
+  }
+]

@@ -3,7 +3,7 @@ import { expect, Page } from '@playwright/test';
 export class BasePage {
   constructor(protected page: Page) {}
 
-  public home: string = 'https://anupdamoda.github.io/AceOnlineShoePortal/index.html';
+  public home: string = 'http://localhost:4200/pages/iot-dashboard';
 
   async goHome() {
     await this.page.goto(this.home);
