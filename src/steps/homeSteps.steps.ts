@@ -21,5 +21,5 @@ When("I click on {string}", async function (this: CustomWorld, option: string) {
 Then('I can click DatePicker', async function(this: CustomWorld) {
   await home.navigationToggle.selectOption(`Datepicker`)
 
-  await home.assertUrlContains('http://localhost:4200/pages/forms/datepicker');
+  await home.assertUrlContains('http://localhost:4200/pages/forms/datepickerrr');
 });

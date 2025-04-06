@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1271220800
+              "duration": 1525392499
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 563999
+              "duration": 1490999
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 564899
+              "duration": 903500
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 120036600
+              "duration": 185544799
             }
           },
           {
@@ -65,8 +65,9 @@
               "location": "src\\steps\\homeSteps.steps.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 208173200
+              "status": "failed",
+              "duration": 5005078600,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\PC\\Desktop\\Typescript Playwright\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:594:17)\n    at processTimers (node:internal/timers:529:7)"
             }
           },
           {
@@ -74,8 +75,14 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 251390499
-            }
+              "duration": 249108500
+            },
+            "embeddings": [
+              {
+                "data": "QzpcVXNlcnNcUENcRGVza3RvcFxUeXBlc2NyaXB0IFBsYXl3cmlnaHRcc3JjXHNjcmVlbnNob3RzXFVzZXIgY2FuIHVzZSBuYXZpZ2F0aW9uLTIwMjUtMDQtMDYucG5n",
+                "mime_type": "image/png"
+              }
+            ]
           }
         ],
         "tags": [],

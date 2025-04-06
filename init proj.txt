@@ -1,2 +1,6 @@
-1. npm init -y 				create package.json
-2. npm init playwright@latest		install playwright
+1. npm init -y 					                create package.json
+2. npm init playwright@latest			        install Playwright
+3. npm install -D @cucumber/cucumber    	    install Cucumber
+4. Create folder structure
+5. Create root-level file (cucumber.js) 	    Cucumber config file
+6. Create root-level file (tsconfig.json)	    Typescript config file

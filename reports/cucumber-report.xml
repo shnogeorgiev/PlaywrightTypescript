@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<testsuite name="Cucumber" time="6.986" tests="1" skipped="0" failures="1" errors="0" timestamp="2025-04-06T18:30:50.463Z">
+  <testcase classname="Login Page" name="User can use navigation" time="6.976">
+    <failure type="Error" message="function timed out, ensure the promise resolves within 5000 milliseconds"><![CDATA[    at Timeout.<anonymous> (C:\Users\PC\Desktop\Typescript Playwright\node_modules\@cucumber\cucumber\src\time.ts:52:14)
+    at listOnTimeout (node:internal/timers:594:17)
+    at processTimers (node:internal/timers:529:7)]]></failure>
+    <system-out><![CDATA[Given I am on the home page.................................................passed
+When Expand the sidebar.....................................................passed
+When I click on 'Forms'.....................................................passed
+Then I can click DatePicker.................................................failed]]></system-out>
+  </testcase>
+</testsuite>
