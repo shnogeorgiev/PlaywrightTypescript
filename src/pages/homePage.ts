@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test';
+import { Page } from '@playwright/test';
 import { BasePage } from '../support/basePage';
 import { Navigation } from '../support/components/navigation';
 
